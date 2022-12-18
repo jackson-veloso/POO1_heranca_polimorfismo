@@ -1,3 +1,5 @@
+package exercicio1;
+
 import exercicio1.*;
 
 public class Main {

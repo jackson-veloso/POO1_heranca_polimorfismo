@@ -35,6 +35,9 @@ public class Professor extends Funcionario {
     public void cadastrarTurma(Turma turma) {
         this.turmasPeriodo.add(turma);
     }
+    public void cadastrarTurma(Turma turma, String periodo) {
+        this.turmasPeriodo.add(turma);
+    }
 
     @Override
     public String toString() {
